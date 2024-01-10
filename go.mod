@@ -1,4 +1,4 @@
-module gorm-logrus
+module github.com/gedoy9793/gorm-logrus
 
 go 1.21
 
