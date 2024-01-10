@@ -19,7 +19,7 @@ type WrapLogger struct {
 	Debug                 bool
 }
 
-func New(logger *logrusLogger.Logger) *WrapLogger {
+func NewLogger(logger *logrusLogger.Logger) *WrapLogger {
 	return &WrapLogger{
 		logrusLogger:          logger,
 		SkipErrRecordNotFound: true,
